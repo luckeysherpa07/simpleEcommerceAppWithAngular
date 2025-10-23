@@ -1,15 +1,16 @@
-import { Component } from '@angular/core';
-
+import { Component, signal } from '@angular/core';
 @Component({
   selector: 'app-header',
   imports: [],
   template: `
-    <p>
-      header works!
+    <p class="bg-slate-100 px-4 py-3 shadow-md">
+      {{ title() }}
     </p>
   `,
-  styles: ``,
+  styles: `
+
+  `,
 })
 export class Header {
-
+  title = signal('angular-ecommerce');
 }
