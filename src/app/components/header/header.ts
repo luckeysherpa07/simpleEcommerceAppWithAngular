@@ -4,9 +4,9 @@ import { PrimaryButton } from "../primary-button/primary-button";
   selector: 'app-header',
   imports: [PrimaryButton],
   template: `
-    <div class="bg-slate-100 px-4 py-3 shadow-md flex justify-between">
-      <span>My Store</span>
-      <app-primary-button label="Cart" />
+    <div class="bg-slate-100 px-4 py-3 shadow-md flex justify-between items-center">
+      <span class="text-xl">My Store</span>
+      <app-primary-button label="Cart" (btnClicked)="showButtonClicked()"></app-primary-button>
     </div>
   `,
   styles: `
@@ -14,4 +14,7 @@ import { PrimaryButton } from "../primary-button/primary-button";
   `,
 })
 export class Header {
+  showButtonClicked() {
+    alert('Cart button clicked!');
+  }
 }
