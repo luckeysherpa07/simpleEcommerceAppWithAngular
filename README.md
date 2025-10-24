@@ -1,3 +1,11 @@
+# Live Demo
+
+You can see the live demo of the project [here](https://simple-ecommerce-app-with-angular-d.vercel.app/)
+
+<img width="928" height="679" alt="image" src="https://github.com/user-attachments/assets/b5d71ea0-3c67-4a05-8b85-86775b912b34" />
+<img width="939" height="753" alt="image" src="https://github.com/user-attachments/assets/0729e33a-0ab7-4f99-bffa-95d7d67f246f" />
+
+
 # AngularEcommerce
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.7.
